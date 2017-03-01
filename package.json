@@ -1,0 +1,21 @@
+{
+  "name": "hn_regions",
+  "version": "0.0.1",
+  "description": "Marionette.Regions",
+  "browserify": {
+    "transform": [
+      "coffeeify",
+      [
+        "jadeify",
+        {
+          "basedir": "node_modules/"
+        }
+      ]
+    ],
+    "extension": [
+      "coffee"
+    ]
+  },
+  "author": "aeksco@gmail.com",
+  "license": "MIT"
+}
